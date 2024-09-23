@@ -1,0 +1,112 @@
+%     
+%Here are some macro's saving time and labour:     
+%     
+\newcommand{\const}{\mbox{const}}      
+\newcommand{\est}{\mbox{{\tiny est}}}      
+\newcommand{\im}{\mbox{$\Im \mbox{m}$}}      
+\newcommand{\obs}{\mbox{{\tiny obs}}}      
+\newcommand{\otherwise}{\mbox{otherwise}}      
+\newcommand{\real}{\mbox{$\Re \mbox{e}$}}      
+\newcommand{\sign}{\mbox{sign}}      
+\newcommand{\sinc}{\mbox{sinc}}      
+%
+\newcommand{\p}{\mbox{$\partial$}}      
+\renewcommand{\d}{\mbox{$\partial$}}      
+\newcommand{\w}{\mbox{$\omega$}}      
+%
+\newcommand{\AAA}{\mbox{\boldmath $A$}}   
+\newcommand{\BB}{\mbox{\boldmath $B$}}     
+\newcommand{\CC}{\mbox{\boldmath $C$}}     
+\newcommand{\DD}{\mbox{\boldmath $D$}}     
+\newcommand{\EE}{\mbox{\boldmath $E$}}     
+\newcommand{\FF}{\mbox{\boldmath $F$}}   
+\newcommand{\GG}{\mbox{\boldmath $G$}}   
+\newcommand{\Gg}{\mbox{\boldmath $g$}}   
+\newcommand{\HH}{\mbox{\boldmath $H$}}   
+\newcommand{\II}{\mbox{\boldmath $I$}}   
+\newcommand{\JJ}{\mbox{\boldmath $J$}}   
+\newcommand{\KK}{\mbox{\boldmath $K$}}   
+\newcommand{\LL}{\mbox{\boldmath $L$}}   
+\newcommand{\MM}{\mbox{\boldmath $M$}}   
+\newcommand{\NN}{\mbox{\boldmath $N$}}   
+\newcommand{\OO}{\mbox{\boldmath $O$}}   
+\newcommand{\PP}{\mbox{\boldmath $P$}}   
+\newcommand{\QQ}{\mbox{\boldmath $Q$}}   
+\newcommand{\RR}{\mbox{\boldmath $R$}}   
+\newcommand{\SSS}{\mbox{\boldmath $S$}}   
+\newcommand{\TT}{\mbox{\boldmath $T$}}   
+\newcommand{\UU}{\mbox{\boldmath $U$}}   
+\newcommand{\VV}{\mbox{\boldmath $V$}}   
+\newcommand{\WW}{\mbox{\boldmath $W$}}   
+\newcommand{\XX}{\mbox{\boldmath $X$}}   
+\newcommand{\YY}{\mbox{\boldmath $Y$}}   
+\newcommand{\ZZ}{\mbox{\boldmath $Z$}}   
+%
+%\newcommand{\aaa}{\mbox{\boldmath $a$}}     
+\newcommand{\bb}{\mbox{\boldmath $b$}}     
+\newcommand{\cc}{\mbox{\boldmath $c$}}     
+\newcommand{\dd}{\mbox{\boldmath $d$}}     
+\newcommand{\ee}{\mbox{\boldmath $e$}}   
+\newcommand{\ff}{\mbox{\boldmath $f$}}   
+%\newcommand{\ggg}{\mbox{\boldmath $g$}}   
+\newcommand{\hh}{\mbox{\boldmath $h$}}   
+\newcommand{\ii}{\mbox{\boldmath $i$}}   
+\newcommand{\jj}{\mbox{\boldmath $j$}}   
+\newcommand{\kk}{\mbox{\boldmath $k$}}   
+%\newcommand{\lll}{\mbox{\boldmath $l$}}   
+\newcommand{\mm}{\mbox{\boldmath $m$}}   
+\newcommand{\nn}{\mbox{\boldmath $n$}}   
+\newcommand{\pp}{\mbox{\boldmath $p$}}   
+\newcommand{\qq}{\mbox{\boldmath $q$}}   
+\newcommand{\rr}{\mbox{\boldmath $r$}}   
+%\newcommand{\sss}{\mbox{\boldmath $s$}}   
+\newcommand{\ttt}{\mbox{\boldmath $t$}}   
+\newcommand{\uu}{\mbox{\boldmath $u$}}   
+\newcommand{\vv}{\mbox{\boldmath $v$}}   
+\newcommand{\ww}{\mbox{\boldmath $w$}}   
+\newcommand{\xx}{\mbox{\boldmath $x$}}   
+\newcommand{\yy}{\mbox{\boldmath $y$}}   
+\newcommand{\zz}{\mbox{\boldmath $z$}}   
+%
+\newcommand{\balpha}{\mbox{\boldmath $\alpha$}}     
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$}}     
+\newcommand{\bphi}{\mbox{\boldmath $\phi$}}     
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$}}     
+\newcommand{\btheta}{\mbox{\boldmath $\theta$}}     
+\newcommand{\bdelta}{\mbox{\boldmath $\delta$}}     
+\newcommand{\bgamma}{\mbox{\boldmath $d$}}     
+\newcommand{\bGamma}{\mbox{\boldmath $\Gamma$}}     
+\newcommand{\bLambda}{\mbox{\boldmath $\Lambda$}}     
+\newcommand{\bmu}{\mbox{\boldmath $\mu$}}     
+\newcommand{\bnabla}{\mbox{\boldmath $\nabla$}}     
+\newcommand{\brho}{\mbox{\boldmath $\rho$}}     
+\newcommand{\bSigma}{\mbox{\boldmath $\Sigma$}}     
+\newcommand{\bsigma}{\mbox{\boldmath $\sigma$}}     
+\newcommand{\bxi}{\mbox{\boldmath $\xi$}}     
+\newcommand{\bepsilon}{\mbox{\boldmath $\epsilon$}}     
+\newcommand{\blambda}{\mbox{\boldmath $\lambda$}}     
+\newcommand{\BLambda}{\mbox{\boldmath $\Lambda$}}     
+%-------------------------------------%
+%  \Appendix - a new appendix command %
+%-------------------------------------%
+%The appendix command is used as in
+% \Appendix{A}{The wave equation as a matrix equation}
+\newcommand {\Appendix}[1]{
+              \section*{APPENDIX #1}
+              \setcounter{equation}{0}
+              \renewcommand{\theequation} 
+              {A-\arabic{equation}}}
+\newcommand {\Appendices}[2]{
+              \section*{APPENDIX #1: #2 }
+              \setcounter{equation}{0}
+              \renewcommand{\theequation} 
+              {#1-\arabic{equation}}}
+%------------------------------------%
+%    \aref - a new cite command.     % 
+%------------------------------------%
+\newcommand{\aref}[2]{\nocite{#1}#2} 
+%----------------------------------------
+%\eqref -an equation reference command
+%----------------------------------------
+%\newcommand{\eqref}[1]{(\ref{#1})}
+%\newcommand{\eqref}[1]{\ref{#1}}

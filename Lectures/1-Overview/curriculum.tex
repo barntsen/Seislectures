@@ -1,0 +1,175 @@
+\documentclass[xcolor=dvipsnames,notes]{beamer}
+\usecolortheme[named=Brown]{structure}
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{} 
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit}
+\usetikzlibrary{datavisualization.formats.functions}
+\include{macro}
+\usepackage{epsfig}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\begin{document}
+%\setbeamercolor{titlelike}{fg=gray,bg=white}
+%\setbeamercolor{itemize item}{fg=gray,bg=white}
+%\setbeamercolor{enumerate item}{fg=gray,bg=white}
+%\setbeamercolor{block title}{fg=black,bg=white}
+%==============================================
+\title{TPG4190 Seismic data acquisition and processing}
+\author{B. Arntsen}
+\institute[NTNU]{
+  NTNU\\
+  Department of Geoscience and petroleum \\
+  \texttt{borge.arntsen@ntnu.no}
+}
+\date{Trondheim fall 2022}
+\begin{frame}
+ \titlepage
+\end{frame}
+%==============================================
+%-----------------------------------------
+\begin{frame}{Curriculum}
+%-----------------------------------------
+\begin{enumerate}
+  \item Martin Landr\o Lecture notes Sections 2.2-2.10
+  \item Lecture 1: Sources 
+  \item Lecture 2: Receivers
+  \item Lecture 3: The CMP method
+  \item Lecture 4: Fourier transforms
+  \item Lecture 5: Deghosting
+  \item Lecture 6: Seismic modelling 
+  \item Lecture 8: Filters
+  \item Lecture 9: Processing
+  \item Lecture 12: Reverse-Time Migration (RTM)
+  \item Lecture 15: Ray modelling
+  \item Lecture 17: Radon demult
+  \item Lecture 18: Surface Related Multiple Removal (SRME)
+  \item Lecture 19: Tomography
+  \item Lecture 21: Full Waveform Inversion (FWI)
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Sources}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is an airgun
+  \item Bubble
+  \item P/B ratio
+  \item Ghost
+  \item Ghost spectrum - depth relation
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Receivers}
+%-----------------------------------------
+\begin{enumerate}
+  \item Array response of receiver groups
+  \item Anti-Aliasing
+\end{enumerate}
+\end{frame}
+%\end{frame}
+%-----------------------------------------
+\begin{frame}{CMP method}
+%-----------------------------------------
+\begin{enumerate}
+  \item CMP sorting
+  \item Fold
+  \item 2D - 3D  Flip-Flop sources
+  \item NMO - Stack
+  \item RMS velocity
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Fourier transforms}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is a Fourier transform
+  \item Simple Fourier transforms
+  \item Nyquist limit, sampling, Aliasing
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Deghosting}
+%-----------------------------------------
+\begin{enumerate}
+  \item Up-Down separation  
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Seismic modelling}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is it?
+  \item What is it used for?
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Filters}
+%-----------------------------------------
+\begin{enumerate}
+  \item Convolution in the Fourier domain
+  \item impulse response
+  \item Common filters and
+        what are they used for
+  \item F-K filters
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Processing}
+%-----------------------------------------
+\begin{enumerate}
+  \item Basic processing sequence
+  \item Principle for migration (imaging)
+  \item Kirchhoff migration
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Reverse time migration}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is RTM 
+  \item Cost/Benefit
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Ray modelling}
+%-----------------------------------------
+\begin{enumerate}
+  \item What are rays?
+  \item How is Ray modelling used?
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Radon transform}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is the Radon transform
+  \item How is the Radon transform used for 
+        removing multiples?
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{SRME}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is the basic idea behind SRME?
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Tomography}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is tomography
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{FWI}
+%-----------------------------------------
+\begin{enumerate}
+  \item What is Full Waveform Inversion? 
+  \item What is FWI used for?
+\end{enumerate}
+\end{frame}
+\end{document}
+

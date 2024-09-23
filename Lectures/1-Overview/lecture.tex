@@ -1,0 +1,184 @@
+\documentclass[xcolor=dvipsnames,notes]{beamer}
+\usecolortheme[named=Brown]{structure}
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{} 
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit}
+\usetikzlibrary{datavisualization.formats.functions}
+\include{macro}
+\usepackage{epsfig}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\begin{document}
+%\setbeamercolor{titlelike}{fg=gray,bg=white}
+%\setbeamercolor{itemize item}{fg=gray,bg=white}
+%\setbeamercolor{enumerate item}{fg=gray,bg=white}
+%\setbeamercolor{block title}{fg=black,bg=white}
+%==============================================
+\title{TPG4190 Seismic data acquisition and processing}
+\author{B. Arntsen}
+\institute[NTNU]{
+  NTNU\\
+  Department of Geoscience and petroleum \\
+  \texttt{borge.arntsen@ntnu.no}
+}
+\date{Trondheim fall 2024}
+\begin{frame}
+ \titlepage
+\end{frame}
+%==============================================
+%-----------------------------------------
+\begin{frame}{Information}
+%-----------------------------------------
+\begin{enumerate}
+  \item Learning objectives
+  \item Schedule
+  \item Material
+  \item Exercises
+  \item Project
+  \item Exam
+  \item Content
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Learning objectives}
+%-----------------------------------------
+\begin{itemize}
+\item {\bf Know} basic theory and principles of seismic
+                 data acquisition
+\item {\bf Know} key steps in seismic processing
+\item {\bf Know} how to derive and
+                 apply basic equations that are used in acquisition 
+                 and processing of seismic
+                 data.
+\item {\bf Know} how to perform simple seismic processing of seismic
+                  field data.
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Schedule}
+%-----------------------------------------
+\begin{itemize}
+\item {\bf Lecture} Every Tuesday  08:15-10:00 PTS1 room P10)
+\item {\bf Lecture} Every Wednesday   09:15-11:00 (PTS1 room P13) 
+\item {\bf Exercise}Every Wednesday   12:15-12:00       (PTS1 room P13)
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Material}
+%-----------------------------------------
+\begin{itemize}
+\item Lecture slides 1-20
+\item Lecture notes (Martin Landr\o )
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Exercises}
+%-----------------------------------------
+\begin{itemize}
+\item No obligatory exercises
+\item Exercises (and solutions) provided
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Project}
+%-----------------------------------------
+\begin{itemize}
+\item Obligatory project
+\item Processing of Regional Seismic data set from the Pacific
+\item Sherwater Reveal processing software
+\item Takes place in in the computerlab room 4, PTS1
+\item Deliver report by 15. November
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Exam}
+%-----------------------------------------
+\begin{itemize}
+\item School exam
+\item No aids allowed
+\item Grade A-F
+\item Project have to be approved
+\end{itemize}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Content}
+%-----------------------------------------
+\begin{enumerate}
+  \item Acquisition of seismic data
+  \item Modeling of seismic data
+  \item Preprocessing and Noise
+  \item Imaging of seismic data
+  \item Multiple removal
+  \item Tomography
+  \item Full Waveform Inversion
+  \item Exam
+\end{enumerate}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Acquisition of seismic data}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=\linewidth]{Fig/seismic-ship.jpg}
+  \caption{Seismic ship}
+  \label{fig:ship}
+\end{figure}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Modeling of seismic data}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=0.4\linewidth]{Fig/vp.pdf}
+  \includegraphics[width=0.4\linewidth]{Fig/data.pdf}
+  \caption{Input model (left) and Output data (right)}
+\end{figure}
+{\bf Movie file:} snp.mp4
+%\movie[width=10cm,height=10cm]{Here is the movie}{snp.pdf}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Preprocessing and Noise}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=0.5\linewidth]{Fig/ch3-trace.pdf}
+  \includegraphics[width=0.5\linewidth]{Fig/ch3-ftrace.pdf}
+\end{figure}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Imaging of Seismic data}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=0.4\linewidth]{Fig/data.pdf}
+  \includegraphics[width=0.4\linewidth]{Fig/mig.pdf}
+  \caption{Input data (left) and Output migration (right)}
+\end{figure}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Multiples}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=0.5\linewidth]{Fig/ch6-srme1.pdf}
+  \includegraphics[width=0.5\linewidth]{Fig/ch6-srme2.pdf}
+\end{figure}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Tomography}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=\textwidth]{Fig/tomo.png}
+\end{figure}
+\end{frame}
+%-----------------------------------------
+\begin{frame}{Inversion}
+%-----------------------------------------
+\begin{figure}
+  \includegraphics[width=\textwidth]{Fig/fwi.png}
+\end{figure}
+\end{frame}
+\note{ Full waveform inversion of the Sigsbee test model}
+%-----------------------------------------
+%\begin{frame}{Overview}
+%-----------------------------------------
+%\end{frame}
+\end{document}
+
