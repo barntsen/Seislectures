@@ -8,7 +8,7 @@
   1. [Overview](Lectures/01-Overview/lecture.pdf)
   2. [Sources](Lectures/02-Sources/lecture.pdf)
   3. [Receivers](Lectures/03-Receivers/lecture.pdf)
-  4. [Cmp](lectures/04-Cmp/lecture.pdf)
+  4. [Cmp](Lectures/04-Cmp/lecture.pdf)
   5. [Deghosting](Lectures/05-Deghosting/lecture.pdf)
   6. [Processing](Lectures/06-Processing/lecture.pdf)
   7. [Imaging](Lectures/07-Imaging/lecture.pdf)
