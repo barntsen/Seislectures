@@ -15,7 +15,7 @@
   8. [Imaging II](Lectures/08-Imaging-2/lecture.pdf)
   9. [Kirchhoff-migration](Lectures/09-Kirchhoffmigration/lecture.pdf)
   10. [Reverse-Time-Migration](Lectures/10-Reverse-Time-Migration/lecture.pdf)
-  11. [Radon](Lectures/11-Radon/lecture.pdf)
+  11. [Radon](Lectures/F-K filters and Radon/lecture.pdf)
   12. [SRME](Lectures/12-SRME/lecture.pdf)
   13. [Deconvolution](Lectures/13-Deconvolution/lecture.pdf)
   14. [FWI](Lectures/14-FWI/lecture.pdf)
