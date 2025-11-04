@@ -16,7 +16,7 @@
        -  [Ray modeling](Lectures/09-Kirchhoffmigration/presentation.pdf)
        -  [Migration](Lectures/09-Kirchhoffmigration/lecture.pdf)
   - 10 [Reverse-Time-Migration](Lectures/10-Reverse-Time-Migration/lecture.pdf)
-  - 11 [Radon](Lectures/F-K filters and Radon/lecture.pdf)
+  - 11 [F-K and Radon](Lectures/11-F-K-and-Radon-filters/lecture.pdf)
   - 12 [SRME](Lectures/12-SRME/lecture.pdf)
   - 13 [Deconvolution](Lectures/13-Deconvolution/lecture.pdf)
   - 14 [FWI](Lectures/14-FWI/lecture.pdf)
